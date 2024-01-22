@@ -4,6 +4,7 @@ import About from "./routes/About";
 import Product from "./routes/Product";
 import Home from "./routes/Home";
 import Navbar from './Navbar';
+
 function App() {
   return (
     <>
