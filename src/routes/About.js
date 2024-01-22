@@ -12,12 +12,7 @@ const About = () => (
     </Typography>
     <Typography variant="h4">How to use it?</Typography>
     <Typography variant="body2">
-        <ul>
-        <li>First, you need to add you expenses in Add Expense Page.</li>
-        <li>Then you can see all you expenses within the Expense History Page</li>
-        <li>And also have access to management dashboards on Dashboard Page</li>
-        <li>Finally, you have control over your expeneses :) .</li>
-        </ul>
+        Teste
     </Typography> 
     </Grid>
   </Grid>
