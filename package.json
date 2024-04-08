@@ -14,7 +14,7 @@
     "astro": "^2.10.14",
     "tailwindcss": "^3.3.3"
   },
-  "description": "Hero section desenvolvida com os frameworks Astro e TailwindCSS para o canal do YouTube da OneBitCode. Construa essa página você também assistindo [esse vídeo](https://www.youtube.com/watch?v=bHtiNu7Jntg).",
+  "description": "Site Kombucha Viva Terra",
   "main": "index.js",
   "repository": {
     "type": "git",
