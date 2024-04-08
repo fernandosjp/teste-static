@@ -1,12 +1,50 @@
-# Hero Section com Astro + TailwindCSS
+# Site Kombucha Viva Terra 
 
-Hero section desenvolvida com os frameworks Astro e TailwindCSS para o canal do YouTube da OneBitCode. Construa essa página você também assistindo [esse vídeo](https://www.youtube.com/watch?v=bHtiNu7Jntg).
+Site para a Kombucha Viva Terra. 
 
-Versão Desktop:
+## Tools
+- Bun
+- TailwindCSS v3.3
+- AstroJs v3
 
-![Captura de tela 2023-08-28 175707](https://github.com/OneBitCodeBlog/yt-astro-tailwind-page/assets/43050548/54e72682-e9d9-42d5-a868-e44fe05db3c2)
+## 🚀 Project Structure
 
-Versão Mobile:
+Inside of your Astro project, you'll see the following folders and files:
 
-<img src="https://github.com/OneBitCodeBlog/yt-astro-tailwind-page/assets/43050548/078aaebc-0093-480c-9c24-3061b2b355d4" style="width: 49%;" />
-<img src="https://github.com/OneBitCodeBlog/yt-astro-tailwind-page/assets/43050548/803631bd-2c10-4162-ab28-6c2ac19a30d1" style="width: 49%;" />
+```
+/
+├── public/
+│   ├── images/
+│   ├── logos/*
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   │   ├── blocks/*
+│   │   ├── cards/*
+│   │   ├── elements/*
+│   │   ├── sections/*
+│   │   ├── shared/*
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+├── package.json
+└── tailwind.config.cjs
+```
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                | Action                                           |
+| :------------------------- | :----------------------------------------------- |
+| `bun install`              | Installs dependencies                            |
+| `bunx --bun astro dev`     | Starts local dev server at `localhost:3000`      |
+| `bunx --bun astro build`   | Build your production site to `./dist/`          |
+| `bunx --bun astro preview` | Preview your build locally, before deploying     |
+| `bunx --bun astro ...`     | Run CLI commands like `astro add`, `astro check` |
+| `bunx --bun astro --help`  | Get help using the Astro CLI                     |
+
+## Bases on open projects
+- https://github.com/unify-ui-dev/agency-landing-page-Astrojs
+- https://github.com/OneBitCodeBlog/yt-astro-tailwind-page (https://www.youtube.com/watch?v=bHtiNu7Jntg)
