@@ -1,19 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Button from "../components/Button.astro";
+import Title from "../components/shared/Title.astro";
+import Paragraph from "../components/shared/Paragraph.astro";
 ---
 
 <Layout title="Contato">
-  <main class="mt-16 xl:mt-24 px-8 md:px-12 xl:px-28 flex flex-col gap-16 xl:flex-row-reverse xl:items-center">
-    <div class="flex flex-col gap-8 items-center xl:items-start text-center xl:text-left">
-      <h1 class="text-4xl xl:text-5xl font-bold">
+  <main class="mt-16 xl:mt-24 px-8 md:px-12 xl:px-28 flex flex-col gap-16 xl: xl:items-center">
+    <div class="flex flex-col gap-8 items-center xl:items-start text-center xl:text-center">
+      <Title>
         Anything You May Need, Delivered To You
-        <span class="text-cyan-600 dark:text-cyan-400">Today</span>!
-      </h1>
-      <p class="md:text-xl">
+        <span class="text-primary dark:text-dark">Today</span>!
+      </Title>
+      <Paragraph>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore aliqua.
-      </p>
+      </Paragraph>
       <Button />
     </div>
   </main>

@@ -1,0 +1,33 @@
+---
+import Button from "../components/Button.astro";
+import ButtonLink from "../components/shared/ButtonLink.astro";
+import Paragraph from "../components/shared/Paragraph.astro";
+import Title from "../components/shared/Title.astro";
+import Container from "../components/shared/Container.astro";
+
+---
+<section id="company">
+<div
+      class="m-16 xl:mt-24 px-8 md:px-12 xl:px-28 flex flex-col gap-16 xl:flex-row-reverse xl:items-center"
+    >
+      <img
+        src="kombuchavivaterra.png"
+        alt=""
+        class="mx-auto xl:mx-0 w-350 md:w-130 xl:w-1/2 xl:mr-8"
+      />
+
+      <div
+        class="flex flex-col gap-8 items-center xl:items-start text-center xl:text-left"
+      >
+        <Title>
+          Viva
+          <span class="text-secondary dark:text-secondary-dark">Terra</span>!
+        </Title>
+        <Paragraph>
+          Não é refri, é muito melhor! Kombucha é uma bebida gaseificada feita a partir da fermentação de chás, frutas e especiarias. É uma alternativa mais saudável e sustentável às bebidas convencionais.
+        </Paragraph>
+        <ButtonLink text="Comprar" href="/shop" className="flex justify-center w-full sm:w-max" variant="primary"/>
+      </div>
+    </div>
+  </section>
+
