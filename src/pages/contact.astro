@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Button from "../components/Button.astro";
 import Title from "../components/shared/Title.astro";
 import Paragraph from "../components/shared/Paragraph.astro";
+import ButtonLink from "../components/shared/ButtonLink.astro";
 ---
 
 <Layout title="Contato">
@@ -16,7 +17,7 @@ import Paragraph from "../components/shared/Paragraph.astro";
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore aliqua.
       </Paragraph>
-      <Button />
+      <ButtonLink text="Fale conosco" href="/shop" className="flex justify-center w-full sm:w-max" variant="primary"/>
     </div>
   </main>
 </Layout>
