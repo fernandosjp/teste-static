@@ -24,6 +24,15 @@ const { title } = Astro.props;
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Google tag (gtag.js) -->
+    <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-B1YM87EDS9"></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-B1YM87EDS9');
+    </script>
   </head>
   <!--<body class="bg-light dark:bg-dark text-dark dark:text-light">-->
   <body class="overflow-hidden overflow-y-auto bg-body">
@@ -115,6 +124,7 @@ const { title } = Astro.props;
 <style is:global>
   :root {
 	--color-bg-header: 114 163 137;
+  --color-bg-footer: 147 167 107  ;
     --color-bg: 255 255 255;
     --color-border: 255 255 255;
     --color-box: 255 255 255;
@@ -132,6 +142,7 @@ const { title } = Astro.props;
 
   .dark {
 	--color-bg-header: 255 255 255;
+  --color-bg-footer: 114 163 137;
     --color-bg: 114 163 137;
     --color-border: 114 163 137;
     --color-box: 17 24 39;
