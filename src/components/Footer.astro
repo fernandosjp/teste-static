@@ -1,6 +1,7 @@
 ---
 import Container from "./shared/Container.astro";
 import Paragraph from "./shared/Paragraph.astro";
+import logo from "../images/logos/logo-viva-terra-46.png"
 
 
 ---
@@ -16,7 +17,11 @@ import Paragraph from "./shared/Paragraph.astro";
                 <div class="h-full">
                     <a href="#" class="relative flex items-center gap-3">
                         <div class="inline-flex text-lg font-semibold text-heading-1">
-                            Viva Terra
+                            <img 
+                            src={logo} 
+                            width="100"
+                            alt="logo" 
+                            class="">
                         </div>
                     </a>
                     <Paragraph className={"mt-8"}>

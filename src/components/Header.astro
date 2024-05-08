@@ -2,6 +2,7 @@
 import ButtonLink from "./shared/ButtonLink.astro";
 import Container from "./shared/Container.astro";
 import  NavItem from "./shared/NavItem.astro";
+import logo from "../images/logos/logo-viva-terra-41.png"
 
 const navItems = [
     {
@@ -23,14 +24,18 @@ const navItems = [
 ]
 ---
 
-<header class="h-12 bg-header md:h-20 px-8 md:px-12 xl:px-28 flex gap-12 items-center">
+<header class="h-40 bg-header md:h-40 px-8 md:px-12 xl:px-28 flex gap-12 items-center">
     <Container>
         <nav class="w-full flex justify-between gap-6 relative">
             <!-- logo -->
             <div class="min-w-max inline-flex relative">
                 <a href="/" class="relative flex items-center gap-3">
                     <div class="inline-flex text-3xl font-semibold text-heading-1-inverse">
-                        Viva Terra
+                        <img 
+                            src={logo} 
+                            width="150"
+                            alt="logo" 
+                            class="">
                     </div>
                 </a>
             </div>
